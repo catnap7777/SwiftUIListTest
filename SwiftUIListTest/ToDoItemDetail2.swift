@@ -42,8 +42,6 @@ struct ToDoItemDetail2: View {
     }
 }
 
-//NEED TO STILL GET PREVIEW WORKING
-
 struct ToDoItemDetail2_Previews: PreviewProvider {
     static var previews: some View {
         ToDoItemDetail2(todos: .constant(.init(title: "what", kam: "the hey")))
