@@ -24,6 +24,8 @@ struct MyTodoItem2: Identifiable {
 class ToDoClass2: ObservableObject {
     @Published var myArrayItems: [MyTodoItem2] = []
     
+    var testItem = MyTodoItem2(title: "Shower", kam: "kamShower")
+    
     func add(xtitle: String, xkam: String) {
         let myItem = MyTodoItem2(title: xtitle, kam: xkam)
         myArrayItems.append(myItem)
