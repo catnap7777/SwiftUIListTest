@@ -44,8 +44,8 @@ struct ToDoItemDetail2: View {
 
 //NEED TO STILL GET PREVIEW WORKING
 
-//struct ToDoItemDetail2_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ToDoItemDetail2(todos: MyTodoItem2(title: "cat", kam: "cat"))
-//    }
-//}
+struct ToDoItemDetail2_Previews: PreviewProvider {
+    static var previews: some View {
+        ToDoItemDetail2(todos: .constant(.init(title: "what", kam: "the hey")))
+    }
+}
